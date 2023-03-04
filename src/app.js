@@ -5,8 +5,8 @@ import { useState } from "react";
 function App() {
 	let [images, setImages] = useState([]);
 	const handleSubmit = async (term) => {
-		images = await searchImages(term);
-		setImages(images);
+		const result = await searchImages(term);
+		setImages(result);
 	};
 	return (
 		<>
