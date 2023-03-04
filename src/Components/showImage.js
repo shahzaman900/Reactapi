@@ -1,7 +1,9 @@
-function ShowImage() {
+function ShowImage({image}) {
 	return (
 		<>
-			<div>its Working</div>
+			<div>
+				{/* <img src={image.}></img> */}
+			</div>
 		</>
 	);
 }
