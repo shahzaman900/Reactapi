@@ -11,6 +11,7 @@ const searchImages = async (term) => {
 		},
 	});
 	return response.data.results;
+	ghd
 };
 
 export default searchImages;
