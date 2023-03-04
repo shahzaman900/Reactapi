@@ -1,7 +1,10 @@
-function ImageList() {
+function ImageList({ images }) {
+	// console.log(...images);
 	return (
 		<>
-			<div>its Working</div>
+			{images.map((m, index) => {
+				return <h1 key={index}>{m.id}</h1>;
+			})}
 		</>
 	);
 }
